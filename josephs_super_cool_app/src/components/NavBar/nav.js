@@ -2,7 +2,7 @@ export const NavBar = () => {
     return (
         <>
             <ul>
-                <li>It Works!!</li>
+                <li>Navigation Bar Component Framework</li>
             </ul>
         </>
     )
