@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+body {
+    background-color: green;
+}
+
+.navBar {
+    background-color: antiquewhite;
+    margin-top: -50px;
+}
+
+.list {
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: -70px;
+    font-family: "Goldman";
+    color: red;
+    list-style-type: none;
+}
+
+.list__item {
+    background-color: darkred;
+    padding: 20px;
+    font-size: 20px;
+    /* border: solid black; */
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+
