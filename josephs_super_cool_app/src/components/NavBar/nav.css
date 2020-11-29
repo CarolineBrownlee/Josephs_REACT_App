@@ -23,9 +23,12 @@ body {
     background-color: darkred;
     padding: 20px;
     font-size: 20px;
-    /* border: solid black; */
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+
+a:visited {
+    color: pink;
+  }
 
 
