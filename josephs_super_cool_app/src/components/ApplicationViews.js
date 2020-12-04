@@ -4,6 +4,7 @@ import { Route } from "react-router-dom"
 import { StickerChart } from "./StickerChart/stickerchart"
 import { Prayers } from "./Prayers/prayers"
 import { Homework } from "./Homework/homework"
+import { ChristmasList } from "./ChristmasList/christmaslist"
 
 export const ApplicationViews = (props) => {
     return (
@@ -19,6 +20,9 @@ export const ApplicationViews = (props) => {
             </Route>
             <Route path="/homework">
                 <Homework />
+            </Route>
+            <Route path="/christmaslist">
+                <ChristmasList />
             </Route>
         </>
     )

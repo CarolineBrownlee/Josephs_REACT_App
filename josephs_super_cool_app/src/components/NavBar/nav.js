@@ -15,6 +15,9 @@ export const NavBar = () => {
                     <li className="list__item">
                         <Link to="/homework">Homework</Link>
                     </li>
+                    <li className="list__item">
+                        <Link to="/christmaslist">Christmas List</Link>
+                    </li>
                 </ul>
             </div>
         </>
