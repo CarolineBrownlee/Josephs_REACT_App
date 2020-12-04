@@ -1,9 +1,7 @@
 .list_item {
     background: white;
     display: inline;
-    float: left;
     margin: 0 15px 30px;
-    padding: 10px 10px 25px;
     text-align: center;
     text-decoration: none;
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -19,6 +17,12 @@
 .listStuff {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    min-width:65%;
+    max-width: 50%;
+    margin:0 auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .letter_to_santa {
@@ -26,5 +30,5 @@
     max-width: 50%;
     text-align:center;
     margin:0 auto;
-    
+    /* text-align: justify; */
 }
