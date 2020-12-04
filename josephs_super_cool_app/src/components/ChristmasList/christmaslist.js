@@ -25,7 +25,7 @@ export const ChristmasList = () => {
                     <a href="https://www.amazon.com/Playskool-Transformers-Rescue-Academy-Whirl/dp/B07FDK76TC/ref=sr_1_39?dchild=1&keywords=transformer+playset+rescue+bots&qid=1607045381&sr=8-39">Amazon Link</a>
                 </li>
                 <li>
-                    <h1>Castle</h1>
+                    <h1>Castle (PURCHASED with dolls and furniture from Facebook Marketplace)</h1>
                     <a href="https://www.amazon.com/Melissa-Doug-Medieval-Drawbridge-Construction/dp/B000NV9FR0/ref=sr_1_12?crid=2E1586K4H5B2B&dchild=1&keywords=dinosaur+playset+melissa+and+doug&qid=1607046568&sprefix=dinosaur+playset+me%2Caps%2C187&sr=8-12">Amazon Link</a>
                 </li>
                 <li>
