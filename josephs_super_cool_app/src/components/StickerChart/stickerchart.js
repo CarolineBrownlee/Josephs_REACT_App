@@ -8,8 +8,10 @@ import bulldozer from '../Images/bulldozerTransformer.jpeg'
 import bulldozerSoundEfx from '../Images/autobots-3.mp3'
 import hotwheels from '../Images/transformerHotWheels.jpg'
 import hotwheelsSoundEfx from '../Images/muscleCar.mp3'
-// import submarineSuperWings from '../Images/superwingsWilly.jpg'
-// import submarineSoundEfx from "../Images/submarine.mp3"
+import submarineSuperWings from '../Images/superwingsWilly.jpg'
+import submarineSoundEfx from "../Images/submarine.mp3"
+import santaCookie from '../Images/santaCookie.jpg'
+import SantaCookieSoundEfx from "../Images/SantaCookieSound.mp3"
 
 
 export const StickerChart = () => {
@@ -18,16 +20,18 @@ export const StickerChart = () => {
     const [playWhiteTransformer] = useSound(whiteTransformerSoundEfx);
     const [playBulldozerTransformer] = useSound(bulldozerSoundEfx);
     const [playHotWheels] = useSound(hotwheelsSoundEfx);
-    // const [playSubmarine] = useSound(submarineSoundEfx);
+    const [playSubmarine] = useSound(submarineSoundEfx);
+    const [playSantaCookie] = useSound(SantaCookieSoundEfx);
 
     return (
         <>  
             <h1 className="title">My Sticker Collection for Being Awesome</h1>
-            <img className="optimusPrimeSticker" style={{ width: '30%'}} src={optimusPrime} onClick={playPrime}  alt={"optimus prime"} />
-            <img className="whiteTransformerSticker" style={{ width: '30%' }} src={whiteTransformer} onClick={playWhiteTransformer} alt={"white transformer"} />
-            <img className="bulldozerSticker" style={{ width: '30%' }} src={bulldozer} onClick={playBulldozerTransformer} alt={"bulldozer transformer"} />
-            <img className="hotWheelsSticker" style={{ width: '30%' }} src={hotwheels} onClick={playHotWheels} alt={"Hot Wheels"} />
-            {/* <img className="submarineSticker" style={{ width: '30%' }} src={submarineSuperWings} onClick={playSubmarine} alt={"submarine willy Super Wings"} /> */}
+            <img className="optimusPrimeSticker" src={optimusPrime} onClick={playPrime}  alt={"optimus prime"} />
+            <img className="whiteTransformerSticker" src={whiteTransformer} onClick={playWhiteTransformer} alt={"white transformer"} />
+            <img className="bulldozerSticker" src={bulldozer} onClick={playBulldozerTransformer} alt={"bulldozer transformer"} />
+            <img className="hotWheelsSticker" src={hotwheels} onClick={playHotWheels} alt={"Hot Wheels"} />
+            <img className="submarineSticker" src={submarineSuperWings} onClick={playSubmarine} alt={"submarine willy Super Wings"} />
+            {/* <img className="santaCookieSticker" src={santaCookie} onClick={playSantaCookie} alt={"santa craft"} /> */}
         </>
     )
 }
