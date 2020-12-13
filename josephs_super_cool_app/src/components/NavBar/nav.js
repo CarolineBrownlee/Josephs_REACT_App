@@ -10,6 +10,9 @@ export const NavBar = () => {
                         <Link to="/stickerchart">Sticker Chart</Link>
                     </li>
                     <li className="list__item">
+                        <Link to="/adventures">Adventures</Link>
+                    </li>
+                    <li className="list__item">
                         <Link to="/prayers">Prayers</Link>
                     </li>
                     <li className="list__item">
