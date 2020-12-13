@@ -1,0 +1,65 @@
+.pageTitle {
+    text-align: center;
+    font-size: 75px;
+}
+
+.journalEntryContainer {
+    border: solid black 10px;
+    background-color: white;
+    max-width: 60%;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.photoContainer {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.josephLakePhoto {
+    max-width: 20%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.josephPumpkinPhoto {
+    max-width: 20%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.josephMommyLake {
+    max-width: 20%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.josephLakeTwo {
+    max-width: 20%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.date {
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+}
+
+.entry {
+    font-size: 20px;   
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}

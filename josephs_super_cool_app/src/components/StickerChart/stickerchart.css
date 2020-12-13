@@ -7,9 +7,25 @@
     margin-left: 5px;
 }
 
+.optimusPrimeSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
 .whiteTransformerSticker {
     max-width: 15%;
     margin-left: 5px;
+}
+
+.whiteTransformerSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
 }
 
 .bulldozerSticker {
@@ -17,9 +33,25 @@
     margin-left: 5px;
 }
 
+.bulldozerSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
 .submarineSticker {
     max-width: 15%;
     margin-left: 5px;
+}
+
+.submarineSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
 }
 
 .hotWheelsSticker {
@@ -27,9 +59,25 @@
     margin-left: 5px;
 }
 
+.hotWheelsSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
 .santaCookieSticker {
     max-width: 15%;
     margin-left: 5px;
+}
+
+.santaCookieSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
 }
 
 .jackSticker {
@@ -37,11 +85,42 @@
     margin-left: 5px;
 }
 
+.jackSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
 .thomasTransformerSticker {
     max-width: 15%;
     margin-left: 5px;
 }
 
+.thomasTransformerSticker:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+
 body {
     margin: 10px;
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
