@@ -16,6 +16,8 @@ import jack from '../Images/jack.png'
 import jackEfx from "../Images/This_Is_Halloween.mp3"
 import thomasTrainTransformer from "../Images/thomasTheTrainTransformer.jpg"
 import thomasTheTrainTransformerEfx from "../Images/thomasTheTrainSound.mp3"
+import hotShotSticker from "../Images/hotShotTransformer.jpeg"
+import hotShotEfx from "../Images/HotShotSound.mp3"
 
 export const StickerChart = () => {
 
@@ -27,6 +29,7 @@ export const StickerChart = () => {
     const [playSantaCookie] = useSound(SantaCookieSoundEfx);
     const [playJack] = useSound(jackEfx);
     const [playThomasTheTrainTransformer] = useSound(thomasTheTrainTransformerEfx);
+    const [playHotShot] = useSound(hotShotEfx);
 
     return (
         <>  
@@ -37,8 +40,9 @@ export const StickerChart = () => {
             <img className="hotWheelsSticker" src={hotwheels} onClick={playHotWheels} alt={"Hot Wheels"} />
             <img className="submarineSticker" src={submarineSuperWings} onClick={playSubmarine} alt={"submarine willy Super Wings"} />
             <img className="santaCookieSticker" src={santaCookie} onClick={playSantaCookie} alt={"santa craft"} />
-            <img className="jackSticker" src={jack} onClick={playJack} alt={"Jack Skellington Image"} />
+            <img className="jackSticker" src={jack} onClick={playJack} alt={"Jack Skellington"} />
             <img className="thomasTransformerSticker" src={thomasTrainTransformer} onClick={playThomasTheTrainTransformer} alt={"Thomas the Train Transformer"} />
+            <img className="hotShotSticker" src={hotShotSticker} onClick={playHotShot} alt={"Hot Shot Transformers"} />
         </>
     )
 }
