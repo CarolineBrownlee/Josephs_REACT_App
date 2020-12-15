@@ -1,0 +1,63 @@
+{
+    "stickers": [
+        {
+            "id": 1,
+            "name": "Optimus Prime",
+            "storageLocation": "../Images/optimusPrime.jpg"
+        },
+        {
+            "id": 2,
+            "name": "White Transformer",
+            "storageLocation": "../Images/whiteTransformer.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Bulldozer",
+            "storageLocation": "../Images/bulldozerTransformer.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Hot Wheels",
+            "storageLocation": "../Images/transformerHotWheels.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Submarine Super Wings",
+            "storageLocation": "../Images/superwingsWilly.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Santa Cookie",
+            "storageLocation": "../Images/santaCookie.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Jack",
+            "storageLocation": "../Images/jack.png"
+        },
+        {
+            "id": 8,
+            "name": "Thomas the Train Transformer",
+            "storageLocation": "../Images/thomasTheTrainTransformer.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Hot Shot",
+            "storageLocation": "../Images/hotShotTransformer.jpeg"
+        }
+    ],
+    "adventures": [
+        {
+            "id": 1,
+            "title": "Exploring Sunday Morning",
+            "date": "December 12, 2020",
+            "photographOne": "../Images/josephLake.jpg",
+            "photographTwo": "../Images/josephPumpkin.jpg",
+            "photographThree": "../Images/josephMommyLake.jpg",
+            "photographFour": "../Images/josephLake2.jpg",
+            "entry": "This morning Mommy took me to the arboretum. I threw rocks in the lake and walked to the bridge. We walked through a cave and saw sharks in Old Hickory Lake. Mommy gave me her tiny rosary. She held her big one. We prayed the Hail, Mary and the Our Father. When we left, we stopped at Starbucks where I got a chocolate chip cookie dough cake pop."
+        }
+    ],
+    "prayers": [],
+    "homework": []
+}
