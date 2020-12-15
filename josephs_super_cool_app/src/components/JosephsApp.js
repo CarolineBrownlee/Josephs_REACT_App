@@ -13,7 +13,7 @@ export const JosephsApp = () => {
 
     return (
         <>
-            <h2 className="underConstruction"> This Site is Under Construction</h2>
+            {/* <h2 className="underConstruction"> This Site is Under Construction</h2> */}
             <Header />
             <NavBar />
             <ApplicationViews />
