@@ -34,15 +34,15 @@ export const StickerChart = () => {
     return (
         <>  
             <h1 className="title">My Sticker Collection for Being Awesome</h1>
-            <img className="optimusPrimeSticker" src={optimusPrime} onClick={playPrime}  alt={"optimus prime"} />
-            <img className="whiteTransformerSticker" src={whiteTransformer} onClick={playWhiteTransformer} alt={"white transformer"} />
-            <img className="bulldozerSticker" src={bulldozer} onClick={playBulldozerTransformer} alt={"bulldozer transformer"} />
-            <img className="hotWheelsSticker" src={hotwheels} onClick={playHotWheels} alt={"Hot Wheels"} />
-            <img className="submarineSticker" src={submarineSuperWings} onClick={playSubmarine} alt={"submarine willy Super Wings"} />
-            <img className="santaCookieSticker" src={santaCookie} onClick={playSantaCookie} alt={"santa craft"} />
-            <img className="jackSticker" src={jack} onClick={playJack} alt={"Jack Skellington"} />
-            <img className="thomasTransformerSticker" src={thomasTrainTransformer} onClick={playThomasTheTrainTransformer} alt={"Thomas the Train Transformer"} />
-            <img className="hotShotSticker" src={hotShotSticker} onClick={playHotShot} alt={"Hot Shot Transformers"} />
+            <img className="sticker" src={optimusPrime} onClick={playPrime}  alt={"optimus prime"} />
+            <img className="sticker" src={whiteTransformer} onClick={playWhiteTransformer} alt={"white transformer"} />
+            <img className="sticker" src={bulldozer} onClick={playBulldozerTransformer} alt={"bulldozer transformer"} />
+            <img className="sticker" src={hotwheels} onClick={playHotWheels} alt={"Hot Wheels"} />
+            <img className="sticker" src={submarineSuperWings} onClick={playSubmarine} alt={"submarine willy Super Wings"} />
+            <img className="sticker" src={santaCookie} onClick={playSantaCookie} alt={"santa craft"} />
+            <img className="sticker" src={jack} onClick={playJack} alt={"Jack Skellington"} />
+            <img className="sticker" src={thomasTrainTransformer} onClick={playThomasTheTrainTransformer} alt={"Thomas the Train Transformer"} />
+            <img className="sticker" src={hotShotSticker} onClick={playHotShot} alt={"Hot Shot Transformers"} />
         </>
     )
 }

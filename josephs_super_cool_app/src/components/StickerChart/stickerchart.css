@@ -1,129 +1,22 @@
+body {
+    margin: 10px;
+}
+
 .title {
     text-align: center;
 }
 
-.optimusPrimeSticker {
+.sticker {
     max-width: 15%;
     margin-left: 5px;
 }
 
-.optimusPrimeSticker:hover {
+.sticker:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
-}
-
-.whiteTransformerSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.whiteTransformerSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.bulldozerSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.bulldozerSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.submarineSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.submarineSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.hotWheelsSticker {
-    max-width: 24%;
-    margin-left: 5px;
-}
-
-.hotWheelsSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.santaCookieSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.santaCookieSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.jackSticker {
-    max-width: 24%;
-    margin-left: 5px;
-}
-
-.jackSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.thomasTransformerSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.thomasTransformerSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-.hotShotSticker {
-    max-width: 15%;
-    margin-left: 5px;
-}
-
-.hotShotSticker:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-
-
-
-
-body {
-    margin: 10px;
 }
 
 @keyframes shake {
